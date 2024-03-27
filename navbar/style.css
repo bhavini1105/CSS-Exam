@@ -1,19 +1,31 @@
-body{
+*{
     margin: 0;
     padding: 0;
 }
 
+body{
+    height: 100vh;
+    background-image: url(../quation1/formbg.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(3px);
+}
+
 .header-1{
-    background-color: rgb(186, 128, 186);
+    background-color: rgb(126, 96, 126);
     padding: 10px;
 }
 
-.header-1>nav>a{
+.header-1>nav>a , select{
     margin-left: 10px;
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    font-size: 20px;
 }
-.header-1>select{
-    margin-left: 10px;
+.header-1>nav>select{
+    margin-right: 30px;
+    float: right;background-color: rgb(77, 62, 92);
+    color: whitesmoke;
+
 }
+

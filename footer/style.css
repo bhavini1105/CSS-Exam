@@ -1,39 +1,30 @@
-footer {
-    background-color: #a05353;
-    padding: 40px 20px;
-  }
-  
-  .footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .news h3,
-  .footer-menu h3,
-  .social-media h3 {
-    margin-bottom: 15px;
-  }
-  
-  .main input,
-  .main button {
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  .footer-menu,a{
-    text-decoration: none;
-    color: black;
-    display: block;
-  }
-  .social-icons {
-    display: flex;
-    text-decoration: none;
-    color: black;
-  }
-  
-  .social-icons .icon {
-    margin-right: 20px;
-    text-decoration: none;
-    color: rgb(80, 84, 159);
-  }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  min-height: 100vh;
+  margin-top: 20px;
+  background-color: tan;
+}
+form{
+  width: 350px;
+  padding: 20px;
+  border-radius: 30px;
+  border: 2px solid black;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(10px);
+  background: transparent;
+}
+
+.foot{
+  background-color: thistle;
+  display: flex;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+}
+

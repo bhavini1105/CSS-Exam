@@ -1,8 +1,7 @@
+@font-face {
+    font-family: abc;
+    src: url(./EduNSWACTFoundation-VariableFont_wght.ttf);
 
-Image
-{
-margin: 0px;
-padding: 0px;
 }
 
 body {
@@ -15,9 +14,22 @@ body {
     margin: auto;
     margin-top: 80px;
     background-color: thistle;
+    border-radius: 20px;
 }
 
-h1,p{
+
+Image
+{
+margin: 0px;
+padding: 0px;
+}
+h4{
+    color: rgb(16, 87, 145);
+    font-weight: 900;
+    font-family: abc;
+}
+
+h1,p,h4{
     text-align: center;
 }
 .image>img{
@@ -33,4 +45,5 @@ h1,p{
     margin-left: 5px;
     font-size: 25px;
     text-decoration: none;
+    color: black;
 }

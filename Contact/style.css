@@ -1,20 +1,34 @@
-body{
+*{
+    padding: 0;
     margin: 0;
-    top: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
     background-image: url(./formbg.jpg);
     background-size: cover;
     background-position: center;
+
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
 }
 
 .contact-form{
-    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    backdrop-filter: blur(10px);
 }
 
 .contact{
     border: 2px solid black;
-    width: 40%;
     border-radius: 12px;
-    margin: auto;
+   width: 350px;
 }
 
 .contact, label, input{
