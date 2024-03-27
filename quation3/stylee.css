@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(182, 84, 84);
+}
+
+.header{
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+}
+
+.sect-1{
+    width: 80%;
+    margin: auto;
+    background-color: cadetblue;
+}

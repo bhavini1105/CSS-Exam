@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(134, 91, 174);
+}
+h3{
+    text-align: center;
+}
+.blog{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    background-color: rgb(155, 129, 180);
+}
+.imag{
+    margin-top: 10px;
+    width: 50%;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content{
+    margin-top: 10px;
+    width: 50%;
+
+}
+
+p{
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.blog1{
+    margin-top: 10px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    background-color: rgb(177, 154, 177);
+}
+.imag1{
+    margin-top: 10px;
+    width: 50%;
+}
+
+.content1{
+    margin-left: 5px;
+}
